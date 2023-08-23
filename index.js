@@ -36,7 +36,7 @@ app.get("/:short", (req, res) => {
         if(data && data.url){
             res.redirect(301, data.url);
         } else {
-            res.redirect(301, "https://codeforcause.org");
+            res.redirect(301, "https://err");
         }
     })
 
